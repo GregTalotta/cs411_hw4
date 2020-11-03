@@ -118,6 +118,7 @@ bool matrix_search(int number, vector<vector<int>> &test_matrix)
 int main()
 {
     string test = "CABAAXBYA";
+    cout << test << endl;
     cout << "A. L 3.2/8 - A:    " << substring_count('A', 'B', test) << endl;
     cout << "A. L 3.2/8 - B:    " << substring_efficient('A', 'B', test) << endl;
     cout << "\n";
